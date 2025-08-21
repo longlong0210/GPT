@@ -7,8 +7,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Bước 2: Tải một mô hình đã được huấn luyện trước cho Tiếng Việt
 # 'bkai-foundation-models/vietnamese-bi-encoder' là một mô hình mạnh mẽ và phổ biến.
-# Lần đầu chạy, mô hình sẽ được tự động tải về (có thể mất vài phút).
-print("Đang tải mô hình...")
 model = SentenceTransformer('bkai-foundation-models/vietnamese-bi-encoder')
 print("Tải mô hình thành công!")
 
